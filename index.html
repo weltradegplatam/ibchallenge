@@ -128,7 +128,7 @@
     <div class="stats">
       <div class="stat"><div class="k">IBs en desafío</div><div class="v" id="s-count">0</div></div>
       <div class="stat"><div class="k">Avance promedio</div><div class="v" id="s-avg">0<small>%</small></div></div>
-      <div class="stat"><div class="k">Día del mes</div><div class="v" id="s-day">0<small> / 0</small></div></div>
+      <div class="stat"><div class="k">Día del desafío</div><div class="v" id="s-day">0<small> / 0</small></div></div>
     </div>
   </header>
 
@@ -150,10 +150,10 @@
 /* ============================================================
    CONFIG — editá estos valores cada actualización
    ============================================================ */
-const PERIODO = "Julio 2026";   // mes del desafío
+const PERIODO = "10 jul – 10 ago 2026";  // ventana del desafío
 const FECHA   = "—";            // fecha de actualización (la ponés vos)
-const DIA     = 1;              // día del mes
-const DIAS    = 31;             // días totales del mes
+const DIA     = 1;              // día del desafío (1 = 10 de julio)
+const DIAS    = 32;             // días totales del desafío (10 jul a 10 ago, ambos incluidos)
 const TYC_URL = "https://docs.google.com/document/d/1T5xg4jaihLxDIBJPeD6yl-YKZYs2UBuqusmsJH2qusQ/edit?usp=sharing";  // link de T&C
 
 /* Ponderaciones */
@@ -178,7 +178,7 @@ const IBs = [
   { code:"70130",  league:"Colombia",   ftd:{t:43,a:0},  nd:{t:16688,a:0}, ac:{t:158,a:0} },
   { code:"86157",  league:"Colombia",   ftd:{t:18,a:0},  nd:{t:1456,a:0},  ac:{t:39,a:0}  },
   { code:"91423",  league:"Venezuela",  ftd:{t:29,a:0},  nd:{t:8817,a:0},  ac:{t:61,a:0}  },
-  { code:"93706",  league:"México",     ftd:{t:36,a:0},  nd:{t:2710,a:0},  ac:{t:62,a:0}  },
+  { code:"61572",  league:"Colombia",   ftd:{t:35,a:0},  nd:{t:47662,a:0}, ac:{t:53,a:0}  },
 ];
 
 /* ============================================================
